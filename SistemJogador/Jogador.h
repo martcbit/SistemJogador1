@@ -5,14 +5,7 @@
 //  Created by Allysson Martins on 07/09/20.
 //  Copyright © 2020 Allysson Martins. All rights reserved.
 //
-/*
-#ifndef Jogador_h
-#define Jogador_h
-
 #include <stdio.h>
-
-#endif  Jogador_h */
-
 
 typedef struct {
     int codigo;
@@ -20,3 +13,9 @@ typedef struct {
     int gols;
     int assistencias;
 }Jogador;
+
+//cabeçalho das funções
+
+void Atribui (Jogador*, int, int, int, int);
+void Imprime (Jogador);
+void Analise (Jogador*, int, int);
