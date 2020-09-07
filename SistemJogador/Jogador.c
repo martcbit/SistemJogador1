@@ -14,7 +14,7 @@ void Atribui(Jogador* pjogador, int codigo, int jogos, int gols, int assistencia
     pjogador->gols = gols;
     pjogador->assistencias = assistencias;
 }
-
+//Criar Analise de Jogador com Base em uma quantidade minima de Gols e Assistencias
 void Imprime (Jogador jogador) {
     printf("Codigo: %d \n", jogador.codigo);
     printf("Quantidade de Jogos: %d \n", jogador.jogos);

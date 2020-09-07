@@ -18,4 +18,4 @@ typedef struct {
 
 void Atribui (Jogador*, int, int, int, int);
 void Imprime (Jogador);
-void Analise (Jogador*, int, int);
+void Analisar (Jogador*, int, int);
